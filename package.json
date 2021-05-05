@@ -1,16 +1,16 @@
 {
-  "name": "@pancakeswap-libs/sdk",
+  "name": "@pantherswap-libs/sdk",
   "license": "MIT",
-  "version": "1.0.1",
-  "description": "🛠 An SDK for building applications on top of pancakeswap.",
+  "version": "1.0.0",
+  "description": "🛠 An SDK for building applications on top of pantherswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancakeswap-sdk.git",
+  "repository": "https://github.com/pantherswap/panther-swap-sdk.git",
   "keywords": [
-    "pancakeswap",
+    "pantherswap",
     "ethereum"
   ],
   "module": "dist/sdk.esm.js",
@@ -23,7 +23,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@pancakeswap-libs/pancake-swap-core": "^0.1.0",
+    "@pantherswap-libs/panther-swap-core": "^0.1.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
