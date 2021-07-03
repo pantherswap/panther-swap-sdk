@@ -1,16 +1,16 @@
 {
-  "name": "@pantherswap-libs/sdk",
+  "name": "@eveswap-libs/sdk",
   "license": "MIT",
   "version": "1.0.0",
-  "description": "🛠 An SDK for building applications on top of pantherswap.",
+  "description": "🛠 An SDK for building applications on top of eveswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pantherswap/panther-swap-sdk.git",
+  "repository": "https://github.com/eveswap/eve-swap-sdk.git",
   "keywords": [
-    "pantherswap",
+    "eveswap",
     "ethereum"
   ],
   "module": "dist/sdk.esm.js",
@@ -23,7 +23,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@pantherswap-libs/panther-swap-core": "^0.1.0",
+    "@eveswap-finance/eve-swap-core": "^0.1.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
