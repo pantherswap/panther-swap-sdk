@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/eveswap/panther-swap-sdk.git",
+  "repository": "https://github.com/eveswap/eve-swap-sdk.git",
   "keywords": [
     "eveswap",
     "ethereum"
@@ -23,7 +23,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@pantherswap-libs/panther-swap-core": "^0.1.0",
+    "@eveswap-finance/eve-swap-core": "^0.1.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
